@@ -1,2 +1,0 @@
-# Guess-number
-Basic

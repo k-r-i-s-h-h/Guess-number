@@ -9,7 +9,7 @@ document.querySelector(".check").addEventListener("click", function () {
   console.log(guess);
 
   if (!guess) {
-    document.querySelector(".message").textContent = "enter something booi";
+    document.querySelector(".message").textContent = "enter something ";
   } else if (guess == number) {
     document.querySelector(".message").textContent = "you r Goat 🐐";
     document.querySelector(".number").textContent = number;
@@ -19,7 +19,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess < number) {
     if (score > 1) {
       document.querySelector(".message").textContent =
-        "i'ts low you dump bitch";
+        "i'ts too low ";
       score--;
       document.querySelector(".score").textContent = score;
     } else {
@@ -29,7 +29,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess > number) {
     if (score > 1) {
       document.querySelector(".message").textContent =
-        "i'ts high you dump bitch";
+        "i'ts to high ";
       score--;
       document.querySelector(".score").textContent = score;
     } else {
